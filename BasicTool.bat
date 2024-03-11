@@ -1,14 +1,6 @@
 @echo off
+
 color 0c
-
-:inicio
-title PROGRAMA MULTIUSOS DE PHOENIX 1.0
-echo -----------------------------------------------------------------------------------------------------------------------
-set /p nombre= INGRESE SU NOMBRE:
-if /i "%nombre%" == "arnold" (goto menu)
-if not /i "%nombre%" == "arnold" (goto incorrecta)
-cls
-
 :menu
 cls
 title PROGRAMA MULTIUSOS DE PHOENIX 1.0 (menu)
